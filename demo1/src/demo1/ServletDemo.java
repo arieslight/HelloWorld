@@ -41,7 +41,7 @@ public class ServletDemo extends HttpServlet {
 			throws ServletException, IOException {
 		 PreparedStatement pstmt = null;
 		 Connection conn = null;
-		  String sql ="ÄãºÃ";
+		  String sql ="ä½ å¥½";
 		try{
             Class.forName("com.mysql.jdbc.Driver") ;
             String url ="jdbc:mysql://118.193.205.238:3306/demo" ;
