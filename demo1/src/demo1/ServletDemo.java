@@ -1,13 +1,9 @@
 package demo1;
 
-import java.io.DataInputStream;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -45,7 +41,7 @@ public class ServletDemo extends HttpServlet {
 			throws ServletException, IOException {
 		 PreparedStatement pstmt = null;
 		 Connection conn = null;
-		  String sql ="";
+		  String sql ="ÄãºÃ";
 		try{
             Class.forName("com.mysql.jdbc.Driver") ;
             String url ="jdbc:mysql://118.193.205.238:3306/demo" ;
